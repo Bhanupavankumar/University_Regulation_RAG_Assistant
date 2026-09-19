@@ -1,249 +1,319 @@
 # 🎓 University Regulation RAG Assistant
-### *Enterprise AI-Powered Academic Governance & Hybrid Retrieval-Augmented Generation Platform*
+### *A Retrieval-Augmented Generation (RAG) System for University Academic Bylaws & Regulations*
 
 <div align="center">
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-university--rag--assistant.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://university-rag-assistant.netlify.app)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bhanupavankumar/University_Regulation_RAG_Assistant)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bhanupavankumar/University_Regulation_RAG_Assistant)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-8.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-[![Vector Engine](https://img.shields.io/badge/Vector_DB-Dense_FAISS_+_BM25-FF6F00?style=for-the-badge)](https://github.com/facebookresearch/faiss)
+[![FAISS](https://img.shields.io/badge/Vector_DB-FAISS-FF6F00?style=for-the-badge)](https://github.com/facebookresearch/faiss)
+[![Groq LLM](https://img.shields.io/badge/LLM-Groq_Inference-F55036?style=for-the-badge)](https://groq.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-### 🚀 **[👉 Click Here to Launch Live Application](https://university-rag-assistant.netlify.app)**
+### 🚀 **[👉 Click Here to Open Live Application](https://university-rag-assistant.netlify.app)**
+
+[🌐 Live Demo](https://university-rag-assistant.netlify.app) • [📖 Abstract](#1-abstract) • [🎯 Objectives](#3-objectives) • [🛠️ Technologies](#4-technologies-used) • [🔄 Methodology](#5-methodology) • [⚙️ Implementation](#6-implementation) • [📊 Results & Tests](#7-results-and-outputs) • [⚡ Quick Start](#-quick-start-local-development)
 
 ---
 
 </div>
 
-## 📌 Executive Summary
+## 1. Abstract
 
-Universities operate under hundreds of pages of complex, evolving academic regulations, ordinance bylaws, grading rubrics, attendance mandates, and disciplinary protocols. Students, faculty, and administrative staff often struggle with:
-- **Scattered & Dense Policies**: Information buried inside 50+ page PDF handbooks.
-- **Ambiguous Policy Interpretations**: Misunderstandings about attendance condonation, grade moderation, re-evaluation, or hostel rules.
-- **Hallucination Risks with Standard AI**: Generic LLMs invent policies that do not exist.
+The **University Regulation RAG Assistant** is a Retrieval-Augmented Generation (RAG) based question-answering system designed to provide accurate answers from university documents. The system works with documents such as university regulations, admission policies, scholarship policies, examination guidelines, attendance rules, and academic handbooks.
 
-The **University Regulation RAG Assistant** is a purpose-built, enterprise-grade AI system that provides **instant, verifiable, and strictly grounded answers** to university policy queries with **zero hallucination tolerance**. Every response cites exact clause numbers, document IDs, effective dates, and confidence scores.
+Multiple PDF documents can be uploaded to the system. The documents are loaded and divided into smaller chunks. These chunks are converted into numerical representations called embeddings and stored in a **FAISS** vector database. When a user asks a question, the system searches the vector database to find the most relevant sections of the uploaded documents. These sections are then provided as context to a **Groq Large Language Model (LLM)**, which generates a concise answer based only on the retrieved information.
 
----
-
-## 🌟 Core Application Modules
-
-### 💬 1. Intelligent Regulation Chat with Verified Citations
-- Natural-language conversational interface designed for students and faculty.
-- Delivers concise, definitive answers backed by clickable, expandable source clauses.
-- Displays retrieval latency, vector confidence percentages, and source document metadata.
-- Pre-loaded with quick-query chips (*"Attendance condonation rules"*, *"Re-evaluation policy"*, *"Grading criteria"*, *"Hostel curfew"*).
-
-### ⚖️ 2. Policy Comparison Matrix
-- Side-by-side regulation comparison engine.
-- Contrast policies across different academic years (e.g., *2022 vs 2024 Attendance Bylaws*) or across departments (e.g., *Engineering vs Humanities Grading Scheme*).
-- Highlights key changes, amendments, credit requirements, and penalties in a structured comparative table.
-
-### 📚 3. Live Document Explorer & Ingestion Hub
-- Browse all indexed institutional documents organized by category (*Academic, Examination, Attendance, Housing, Scholarships, Conduct*).
-- Inspect document metadata, active clause counts, and chunk distributions.
-- **Drag-and-Drop Ingestion**: Upload new PDF or text bylaws with automatic recursive character chunking (800 chars / 150 overlap) and real-time embedding generation.
-
-### 📊 4. Telemetry, Analytics & Audit Logging
-- Real-time administrative dashboard tracking institutional inquiries.
-- Monitors query volume, average retrieval latency, most-queried policy categories, and model response times.
-- Interactive user feedback loop (helpful / unhelpful reviews) providing continuous quality auditing for compliance teams.
-
-### 🔄 5. Multi-Provider Fallback Synthesizer
-- Built with an intelligent multi-LLM router that automatically fails over without service interruption:
-  - **Groq** (`llama-3.3-70b-versatile`, `llama-3.1-8b-instant`) — Ultra-low latency inference
-  - **Google Gemini** (`gemini-1.5-flash`, `gemini-1.5-pro`) — Deep multi-clause contextual reasoning
-  - **OpenAI** (`gpt-4o-mini`, `gpt-4o`) — High-precision synthesis
-  - **Anthropic Claude**, **Cohere**, **Mistral**
-  - **Local Deterministic Fallback Engine** — Operates completely offline without external API keys!
-
-### 🎨 6. Premium Glassmorphic Interface
-- Built with React 19, Lucide icons, and custom CSS design tokens.
-- Supports 4 tailored aesthetic themes (*Indigo Tech, Emerald Campus, Midnight Obsidian, Crimson Classic*) with responsive mobile and desktop viewports.
+The system also displays the source document and page number used to generate the answer. If the required information is not available in the uploaded documents, the system informs the user that the answer could not be found instead of generating unsupported information.
 
 ---
 
-## 🏛️ System Architecture & Workflow
+## 2. Problem Statement
 
-```mermaid
-flowchart TD
-    subgraph UI_Layer["🎨 Presentation Layer (React 19 + Vite)"]
-        Chat["💬 Conversational Q&A"]
-        Matrix["⚖️ Policy Comparison"]
-        Explorer["📚 Document Explorer & Uploader"]
-        Analytics["📊 Real-Time Telemetry Dashboard"]
-    end
+University regulations and academic information are usually available across multiple PDF documents. Students and faculty find it difficult and time-consuming to manually search through these dense documents to find specific information about attendance, examinations, admission, scholarships, academic rules, and other policies.
 
-    subgraph API_Layer["⚡ Backend Services (FastAPI)"]
-        Router["REST API Gateway & CORS Controller"]
-        Sessions["Session State & Chat Memory"]
-        Telemetry["Analytics & Feedback Tracker"]
-    end
+Therefore, there is a strong need for an intelligent assistant that can:
+- 📄 Accept multiple university PDF documents.
+- ⚙️ Understand and preprocess the document content.
+- 🔍 Retrieve relevant information for a user's question.
+- 🎯 Generate answers based **only** on the provided documents.
+- 🏷️ Show the exact **source document and page number**.
+- 🚫 Avoid generating unsupported answers when the required information is not available.
 
-    subgraph RAG_Engine["🧠 Hybrid Retrieval & Multi-LLM Pipeline"]
-        direction TB
-        Input["User Regulation Query"]
-        
-        subgraph Ingestion["1. Document Processing & Ingestion"]
-            PDF["PDF / Text Bylaws"] --> Chunker["Recursive Chunker (800 chars / 150 overlap)"]
-            Chunker --> Embedder["Semantic Vectorizer (384d Dense Embeddings)"]
-            Chunker --> Lexical["BM25 Inverted Index Builder"]
-        end
+The **University Regulation RAG Assistant** solves this problem using Retrieval-Augmented Generation.
 
-        subgraph Search["2. Hybrid Dual-Search Engine"]
-            Input --> DenseSearch["Dense Cosine / FAISS Vector Search"]
-            Input --> SparseSearch["BM25 Lexical Keyword Search"]
-            DenseSearch & SparseSearch --> RRF["Reciprocal Rank Fusion (RRF Ranker)"]
-        end
+---
 
-        subgraph Synthesis["3. Grounded Synthesis & Guardrails"]
-            RRF --> Context["Top-K Grounded Context Assembly"]
-            Context --> LLMRouter{"Multi-LLM Router"}
-            LLMRouter -->|Primary| Groq["Groq (Llama-3.3-70B)"]
-            LLMRouter -->|Failover 1| Gemini["Google Gemini 1.5"]
-            LLMRouter -->|Failover 2| OpenAI["OpenAI GPT-4o"]
-            LLMRouter -->|Offline| Local["Deterministic Local Synthesizer"]
-            Groq & Gemini & OpenAI & Local --> Verifier["Faithfulness & Citation Validator"]
-        end
-    end
+## 3. Objectives
 
-    subgraph Storage_Layer["💾 Persistent Data Stores"]
-        VecDB[("FAISS / Dense Vectors")]
-        MetaDB[("Metadata & Session JSON")]
-        DocsDB[("Raw University Regulations")]
-    end
+The main objectives of the project are:
+1. **Develop a RAG-based assistant** for university regulations.
+2. **Support multiple PDF document uploads** simultaneously.
+3. **Extract text** accurately from university PDF documents.
+4. **Divide large documents** into smaller meaningful chunks using recursive splitting.
+5. **Convert document chunks into embeddings** using semantic models.
+6. **Store embeddings in a FAISS vector database** for rapid similarity search.
+7. **Retrieve relevant document sections** based on user queries.
+8. **Generate answers using a Large Language Model (Groq LLM)**.
+9. **Ground the generated answers** strictly in the retrieved documents.
+10. **Display the source document and page number** with every citation.
+11. **Reduce hallucination** by restricting the LLM to the retrieved context.
+12. **Indicate clearly when the requested information cannot be found** in the uploaded documents.
 
-    UI_Layer <==>|JSON / Multipart HTTP| API_Layer
-    API_Layer --> Input
-    Embedder --> VecDB
-    Lexical --> MetaDB
-    DenseSearch <--> VecDB
-    SparseSearch <--> MetaDB
-    Verifier --> Router
-    Router --> Sessions & Telemetry
+---
+
+## 4. Technologies Used
+
+| Technology | Purpose |
+| :--- | :--- |
+| **Python** | Main programming language for the RAG pipeline and server |
+| **Google Colab** | Interactive development, experimentation, and execution environment |
+| **PyPDF** | Loading and extracting text from multi-page PDF files |
+| **LangChain** | RAG pipeline orchestrator and document processing utilities |
+| **RecursiveCharacterTextSplitter** | Splitting documents into sliding window chunks (800 chars / 150 overlap) |
+| **Hugging Face / Sentence Transformers** | Embedding generation using `sentence-transformers/all-MiniLM-L6-v2` |
+| **FAISS (Facebook AI Similarity Search)** | Vector storage and high-speed similarity search |
+| **Groq Cloud** | High-speed LLM inference |
+| **FastAPI & Uvicorn** | High-performance asynchronous REST API backend |
+| **React 19 & Vite** | Modern reactive user interface with Glassmorphism styling |
+| **NumPy** | High-performance numerical operations and matrix similarity calculations |
+
+### Core AI Components
+- **Embedding Model**: `sentence-transformers/all-MiniLM-L6-v2` (384-dimensional dense vectors)
+- **Vector Database**: `FAISS (IndexFlatIP / Cosine Distance)`
+- **LLM**: `Groq API` (e.g. `llama-3.3-70b-versatile`, `openai/gpt-oss-20b`)
+
+---
+
+## 5. Methodology
+
+```
+┌──────────────────────────────────────────────────┐
+│              Uploaded PDF Documents              │
+└────────────────────────┬─────────────────────────┘
+                         ▼
+┌──────────────────────────────────────────────────┐
+│        Document Loading (PyPDF / Text)           │
+└────────────────────────┬─────────────────────────┘
+                         ▼
+┌──────────────────────────────────────────────────┐
+│                 Text Extraction                  │
+└────────────────────────┬─────────────────────────┘
+                         ▼
+┌──────────────────────────────────────────────────┐
+│  Document Chunking (Size: 800, Overlap: 150)     │
+└────────────────────────┬─────────────────────────┘
+                         ▼
+┌──────────────────────────────────────────────────┐
+│   Text Embeddings (all-MiniLM-L6-v2 - 384 dim)   │
+└────────────────────────┬─────────────────────────┘
+                         ▼
+┌──────────────────────────────────────────────────┐
+│              FAISS Vector Database               │
+└────────────────────────┬─────────────────────────┘
+                         │
+        User Query ──────┼─────────────────────────┐
+                         ▼                         ▼
+                  Query Embedding          Similarity Search
+                         │                         │
+                         └────────────┬────────────┘
+                                      ▼
+┌──────────────────────────────────────────────────┐
+│             Relevant Document Chunks             │
+└────────────────────────┬─────────────────────────┘
+                         ▼
+┌──────────────────────────────────────────────────┐
+│    Context Construction (Grounded Prompting)     │
+└────────────────────────┬─────────────────────────┘
+                         ▼
+┌──────────────────────────────────────────────────┐
+│                    Groq LLM                      │
+└────────────────────────┬─────────────────────────┘
+                         ▼
+┌──────────────────────────────────────────────────┐
+│     Grounded Answer + Source & Page Number       │
+└──────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🔍 How the Hybrid Search Engine Works
+## 6. Implementation
 
-1. **Document Ingestion**:
-   - Institutional PDFs and text policies are extracted and normalized.
-   - Text is split into semantic chunks using a recursive character splitter with sentence and paragraph boundary awareness.
-2. **Dual-Representation Indexing**:
-   - **Dense Index**: Every chunk is mapped to a 384-dimensional dense semantic vector space for conceptual understanding.
-   - **Sparse BM25 Index**: Generates an inverted token index capturing exact ordinance numbers, sub-clause identifiers, and legal keywords.
-3. **Reciprocal Rank Fusion (RRF)**:
-   - When a user submits a query, both dense and sparse retrieval engines produce ranked candidates.
-   - The RRF algorithm merges and scores candidates:
-   $$\text{RRF Score}(d) = \sum_{m \in \{\text{dense}, \text{bm25}\}} \frac{1}{60 + r_m(d)}$$
-4. **Strict Citation Synthesis**:
-   - The top candidate chunks are formatted into a constrained prompt with strict negative constraints ("*Do not speculate; only answer using the provided clauses*").
-   - The LLM outputs the answer along with structured citations including document name, section, and clause ID.
+### Step 1: Upload Documents
+The system allows multiple PDF documents to be uploaded. The project works with official regulations such as:
+- *University Research Policy*
+- *Admission Policy and Procedure*
+- *Scholarships Policy*
+- *R22.1 Regulations for B.Tech*
 
----
+### Step 2: Document Loading
+Uploaded PDF documents are loaded using `PyPDFLoader`. Each page is treated as a document object containing:
+- Page content
+- Source filename (`source`)
+- Page number (`page_number`)
+- Category & section metadata
 
-## 📋 Example Queries & Output
-
-| Query | Retrieved Regulation | Sample Grounded Answer |
-| :--- | :--- | :--- |
-| *"What is the minimum attendance required to appear for semester end exams?"* | **Academic Regulations 2024 — Clause 4.2** | *"A student must maintain a minimum of 75% aggregate attendance. A condonation of up to 10% (down to 65%) may be granted by the Academic Council on medical grounds with valid documentation."* |
-| *"What is the policy for course re-evaluation and grace marks?"* | **Examination Bylaws — Section 8.1** | *"Students can apply for re-evaluation within 15 days of result declaration with a prescribed fee. Grade revision applies if the score varies by more than 5%."* |
-| *"What are the hostel curfew timings and leave rules?"* | **Student Residence Bylaws — Clause 12** | *"Campus gates close at 9:30 PM for residential students. Overnight leave requires digital approval from the resident warden at least 24 hours in advance."* |
-
----
-
-## 🛠️ Technology Stack
-
-| Layer | Technologies Used | Purpose |
-| :--- | :--- | :--- |
-| **Frontend Framework** | **React 19, Vite 8, JavaScript (ES2024)** | High-speed reactive user interface |
-| **Styling & Design** | **Custom Glassmorphism CSS, Lucide Icons, Canvas Confetti** | Zero-bloat, modern responsive design system |
-| **Backend API** | **FastAPI, Uvicorn, Python 3.10+** | Asynchronous RESTful microservice |
-| **Vector & Search** | **FAISS, Dense Cosine Sim, BM25, NumPy** | Sub-millisecond hybrid retrieval |
-| **Document Processing** | **PyPDF, Recursive Character Chunker** | PDF text parsing and sliding-window chunking |
-| **LLM Synthesis** | **Groq, Gemini, OpenAI, Anthropic, Cohere, Mistral** | Resilient multi-provider generative synthesis |
-| **Deployment** | **Netlify (Frontend CDN), Render / Railway (Backend)** | Global edge deployment and scalable compute |
-
----
-
-## 📁 Repository Structure
-
-```
-├── backend/
-│   ├── app/
-│   │   ├── analytics.py           # Telemetry metrics and user feedback tracker
-│   │   ├── document_processor.py   # PDF extractor, recursive text splitter, embedder
-│   │   ├── hybrid_search.py        # BM25 + Dense RRF fusion and query expansion
-│   │   ├── main.py                 # FastAPI enterprise endpoints and CORS config
-│   │   ├── models.py               # Pydantic data schemas and validation models
-│   │   ├── rag.py                  # End-to-end RAG workflow orchestrator
-│   │   ├── sessions.py             # Chat history and conversation state manager
-│   │   ├── synthesizer.py          # Multi-LLM provider client with auto-failover
-│   │   └── vector_store.py         # FAISS & NumPy cosine similarity vector index
-│   ├── data/                       # Pre-loaded academic regulations & vector store
-│   ├── requirements.txt            # Python dependencies
-│   ├── run.py                      # Production server entrypoint
-│   └── seed_data.py                # University regulations dataset builder
-│
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx                 # Full-featured single-page enterprise React app
-│   │   ├── App.css                 # Glassmorphic UI styles and micro-animations
-│   │   ├── index.css               # Design tokens, typography, and theme variables
-│   │   └── main.jsx                # React DOM root entry
-│   ├── public/                     # Static assets and Netlify routing rules
-│   ├── package.json                # Node dependencies and scripts
-│   └── vite.config.js              # Vite production bundler configuration
-│
-├── University_RAG_Colab_Pipeline.ipynb # Standalone Colab RAG pipeline notebook
-├── netlify.toml                    # Netlify edge deployment configuration
-└── README.md                       # Project documentation
+*Example Metadata:*
+```json
+{
+  "source": "R22.1 Regulations for B.Tech.pdf",
+  "page_number": 21,
+  "category": "Academic"
+}
 ```
 
+### Step 3: Document Chunking
+Large documents cannot be passed to the LLM as one single block. Documents are split into semantic chunks using `RecursiveCharacterTextSplitter`:
+- **Chunk Size**: `800` characters
+- **Chunk Overlap**: `150` characters
+- **Separators**: `["\n\n", "\n", ". ", "; ", ", ", " ", ""]` (splits on paragraphs, sentences, words).
+
+*Why chunking is required:* Chunking optimizes retrieval precision, prevents context window overflow, and enables pinpoint source citation.
+
+### Step 4: Embeddings
+Each chunk is transformed into a 384-dimensional dense vector using `sentence-transformers/all-MiniLM-L6-v2`. This captures the conceptual and semantic meaning of the policy text:
+- Query: *"What is the minimum attendance requirement?"*
+- Document chunk: *"The attendance in each course shall not be less than 75%..."*
+- Both map to proximate positions in the vector space, enabling semantic retrieval.
+
+### Step 5: FAISS Vector Search
+Embeddings are indexed in FAISS. When a user asks a question:
+1. The question is converted into an embedding.
+2. FAISS performs an inner product / cosine distance calculation against all indexed chunks.
+3. The top-$k$ most similar chunks are retrieved.
+
+### Step 6: Metadata Handling & Deduplication
+The system preserves metadata (`source`, `page_number`) alongside every vector chunk. Before assembling the final prompt context, duplicate source-page combinations are removed to maximize context density.
+
+### Step 7: Retrieval Process
+When a query is received:
+1. Receives the user question.
+2. Converts question into an embedding vector.
+3. Searches FAISS vector database with $k = 10$.
+4. Applies distance filtering (`if score < 1.2`).
+5. Deduplicates source and page combinations.
+6. Builds a clean context block.
+7. Dispatches context and question to Groq LLM.
+
+### Step 8: Grounded Answer Generation
+The retrieved chunks are formatted into a constrained prompt sent to the **Groq LLM**:
+- Instructs model to **use only the provided documents**.
+- Prohibits outside knowledge or policy fabrication.
+- Requires concise, direct answers with clause citations.
+- **Strict Fallback Guarantee**: If the answer cannot be found in the retrieved chunks, the model outputs:
+  > *"The answer could not be found in the uploaded university documents."*
+
 ---
 
-## ⚡ Quick Start (Local Setup)
+## 7. Results and Outputs
 
-### 1. Clone the Repository
+The system was evaluated against real-world academic regulatory test cases:
+
+### 🧪 Test Case 1: Attendance Rule
+- **User Question**: `What is the minimum attendance requirement?`
+- **Generated Answer**: `The minimum attendance requirement is 75%.`
+- **Source**: `R22.1 Regulations for B.Tech` — **Page 21**
+- **Outcome**: ✅ *Accurately retrieved minimum threshold and source page.*
+
+---
+
+### 🧪 Test Case 2: Practical Examination
+- **User Question**: `How is the end semester examination conducted for practical courses?`
+- **Generated Answer**: `The practical examination is conducted jointly by two examiners, with the assessment scheme communicated by the laboratory in-charge and the summative assessment conducted for a maximum of 40 marks.`
+- **Sources**: `R22.1 Regulations for B.Tech` — **Pages 8, 22, 24, 29**
+- **Outcome**: ✅ *Correctly synthesized multi-page policy criteria.*
+
+---
+
+### 🧪 Test Case 3: Supplementary Examination
+- **User Question**: `How often are supplementary examinations conducted?`
+- **Generated Answer**: `Supplementary examinations are conducted once, during the summer semester.`
+- **Source**: `R22.1 Regulations for B.Tech` — **Page 38**
+- **Outcome**: ✅ *Direct citation of summer semester ordinance.*
+
+---
+
+### 🧪 Test Case 4: Information Not Available (Hallucination Prevention)
+- **User Question**: `What is the hostel mess fee for this semester?`
+- **Generated Answer**: `The answer could not be found in the uploaded university documents.`
+- **Outcome**: ✅ *Zero hallucination; properly triggered fallback response when information was absent.*
+
+---
+
+## 8. Advantages
+
+1. **Easy Access to University Information**: Instant answers eliminate tedious manual searching through 50+ page PDFs.
+2. **Multiple Document Support**: Ingests handbooks, examination codes, research bylaws, and admission guidelines simultaneously.
+3. **Semantic Search**: FAISS retrieves answers based on contextual meaning rather than simple keyword matching.
+4. **Verifiable Source Attribution**: Displays exact document name and page number for every statement.
+5. **Hallucination Guardrails**: The LLM is strictly constrained to retrieved context with negative fallback triggers.
+
+---
+
+## 9. Limitations
+
+1. **Document Quality Dependency**: Scanned or low-resolution PDFs may require OCR preprocessing for clean text extraction.
+2. **Chunking Trade-offs**: Sub-optimal chunk boundaries can occasionally split related clauses across two chunks.
+3. **Embedding Model Specifics**: Semantic accuracy depends on the vocabulary and domain coverage of the embedding model.
+4. **Duplicate Uploads**: Uploading identical PDFs under different filenames creates duplicate context candidates.
+
+---
+
+## 10. Conclusion
+
+The **University Regulation RAG Assistant** demonstrates how Retrieval-Augmented Generation can be practically applied to institutional academic bylaws and policies.
+
+By combining multi-PDF text extraction, recursive chunking, `all-MiniLM-L6-v2` embeddings, FAISS vector search, and Groq LLM synthesis, the platform delivers grounded, concise, and verifiable answers with source document and page number citations. The integrated fallback mechanism ensures reliable academic compliance and eliminates hallucinations.
+
+---
+
+## 🚀 Quick Start (Local Development)
+
+### Prerequisites
+- **Python**: 3.10+
+- **Node.js**: 18+
+
+### 1. Backend Setup
 ```bash
-git clone https://github.com/Bhanupavankumar/University_Regulation_RAG_Assistant.git
-cd University_Regulation_RAG_Assistant
-```
-
-### 2. Run Backend
-```bash
+# Navigate to backend
 cd backend
+
+# Create virtual environment
 python -m venv venv
+.\venv\Scripts\Activate.ps1   # On Windows
+# source venv/bin/activate    # On Linux/macOS
 
-# Windows
-.\venv\Scripts\Activate.ps1
-# Mac/Linux
-source venv/bin/activate
-
+# Install dependencies
 pip install -r requirements.txt
-python seed_data.py   # Populates default regulations dataset
-python run.py         # Starts API on http://127.0.0.1:8000
-```
 
-### 3. Run Frontend
-```bash
-cd ../frontend
-npm install
-npm run dev           # Starts UI on http://localhost:5173
+# Seed regulations database
+python seed_data.py
+
+# Start FastAPI server
+python run.py
 ```
+> Backend runs at: `http://127.0.0.1:8000` | Swagger Docs: `http://127.0.0.1:8000/docs`
+
+### 2. Frontend Setup
+```bash
+# In a new terminal
+cd frontend
+npm install
+npm run dev
+```
+> Frontend runs at: `http://localhost:5173`
 
 ---
 
-## 👨‍💻 Author & Contributions
+## 📓 Google Colab Pipeline
 
-Created and maintained by **Bhanu Pavan Kumar**.  
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Bhanupavankumar/University_Regulation_RAG_Assistant/issues).
+For interactive experimentation with RAG chunking, FAISS index construction, and prompt experiments, open [`University_RAG_Colab_Pipeline.ipynb`](./University_RAG_Colab_Pipeline.ipynb) directly in Google Colab.
 
 ---
 
 ## 📄 License
 
-This project is open-source and licensed under the [MIT License](LICENSE).
+Distributed under the [MIT License](LICENSE).  
+Developed by **Bhanu Pavan Kumar**.
