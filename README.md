@@ -10,9 +10,13 @@
 ![Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-candid--semifreddo--29a007.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://candid-semifreddo-29a007.netlify.app)
+
 **A high-precision, multi-provider Retrieval-Augmented Generation (RAG) platform grounded on official university bylaws, academic ordinances, grading rules, attendance mandates, and disciplinary policies.**
 
-[✨ Features](#-key-features) • [🏛️ Architecture](#️-system-architecture) • [🚀 Quick Start](#-quick-start-local-development) • [🌐 Deployment](#-live-deployment-guide) • [📡 API Reference](#-api-endpoints) • [💻 Git Setup](#-pushing-to-github)
+### 🚀 **[👉 Click Here to Open Live Application](https://candid-semifreddo-29a007.netlify.app)**
+
+[🌐 Live Demo](https://candid-semifreddo-29a007.netlify.app) • [✨ Features](#-key-features) • [🏛️ Architecture](#️-system-architecture) • [🚀 Quick Start](#-quick-start-local-development) • [🌐 Deployment](#-live-deployment-guide) • [📡 API Reference](#-api-endpoints)
 
 ---
 
