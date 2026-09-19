@@ -1,0 +1,1029 @@
+{
+  "sess_f94323c2fd": {
+    "id": "sess_f94323c2fd",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 21:36:18",
+    "updated_at": "2026-09-18 21:36:18",
+    "messages": []
+  },
+  "sess_0c4eef1687": {
+    "id": "sess_0c4eef1687",
+    "title": "What are the key rules and provisions in...",
+    "created_at": "2026-09-18 21:36:20",
+    "updated_at": "2026-09-18 21:56:11",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the key rules and provisions in college-rules?",
+        "time": "09:45 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      },
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What are the key rules and provisions in college-rules**:\n\n### \ud83d\udcd8 college-rules (Page 4, Page 5)\n\n- 2.23 Complaints of the students must be presented through the proper channel. `[college-rules | Page 5]`\n- Students and staff can make use of the grievance redress mechanism available in the college. `[college-rules | Page 5]`\n- 2.24 The college authorities reserve the right to amend, alter or modify the Rules and Regulations from time to time on the basis of the changing requirements. `[college-rules | Page 5]`\n- 2.16 Students from other institutions and outsiders should take prior permission with valid identity proof to meet the Principal and staff members. `[college-rules | Page 4]`\n- They shall not meet or interact with the students of the college inside the campus without the prior written consent of the Principal. `[college-rules | Page 4]`\n- 2.17 Students from other institutions and outsiders who disrupt any academic activity or functioning of the college office or any unit of the college shall be treated as trespassers infringing on the rights of college authorities to peacefully run the institution and maintain discipline. `[college-rules | Page 4]`\n- 2.23 Complaints of the students must be presented through the proper channel. `[college-rules | Page 5]`\n- Students and staff can make use of the grievance redress mechanism available in the college. `[college-rules | Page 5]`\n- 2.24 The college authorities reserve the right to amend, alter or modify the Rules and Regulations from time to time on the basis of the changing requirements. `[college-rules | Page 5]`\n- 2.23 Complaints of the students must be presented through the proper channel. `[college-rules | Page 5]`\n- Students and staff can make use of the grievance redress mechanism available in the college. `[college-rules | Page 5]`\n- 2.24 The college authorities reserve the right to amend, alter or modify the Rules and Regulations from time to time on the basis of the changing requirements. `[college-rules | Page 5]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:45 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "college-rules",
+            "page": 5,
+            "file": "college-rules.pdf",
+            "category": "Academic",
+            "snippet": "2.23 Complaints of the students must be presented through the proper channel. Students and staff can make use of the grievance redress mechanism available in the college. 2.24 The college authorities reserve the right to amend, alter or modify the Rules and Regulations from time to time on the basis of the changing requirements. 2.25 It is the responsibility of the students and staff to follow the notices/ announcements concerning the rules and programmes of the college from time to time. Ignorance of these rules cannot be considered as an excuse for lapses. 2.26 The Principal is the ultimate authority in the interpretation and implementation of the rules and regulations in the best interests of the institution. 3. Attendance & Leave of Absence 3.1 The college works from 9.30 a.m",
+            "score": 0.7277,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "college-rules",
+            "page": 4,
+            "file": "college-rules.pdf",
+            "category": "Academic",
+            "snippet": "2.16 Students from other institutions and outsiders should take prior permission with valid identity proof to meet the Principal and staff members. They shall not meet or interact with the students of the college inside the campus without the prior written consent of the Principal. 2.17 Students from other institutions and outsiders who disrupt any academic activity or functioning of the college office or any unit of the college shall be treated as trespassers infringing on the rights of college authorities to peacefully run the institution and maintain discipline. Any such deed will be treated as an infringement also on the rights of students, especially the backward and the underprivileged, to have uninterrupted education",
+            "score": 0.3531,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "college-rules",
+            "page": 5,
+            "file": "college-rules.pdf",
+            "category": "Academic",
+            "snippet": "2.23 Complaints of the students must be presented through the proper channel. Students and staff can make use of the grievance redress mechanism available in the college. 2.24 The college authorities reserve the right to amend, alter or modify the Rules and Regulations from time to time on the basis of the changing requirements. 2.25 It is the responsibility of the students and staff to follow the notices/ announcements concerning the rules and programmes of the college from time to time. Ignorance of these rules cannot be considered as an excuse for lapses. 2.26 The Principal is the ultimate authority in the interpretation and implementation of the rules and regulations in the best interests of the institution. 3. Attendance & Leave of Absence 3.1 The college works from 9.30 a.m",
+            "score": 0.35,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "college-rules",
+            "page": 5,
+            "file": "college-rules.pdf",
+            "category": "Academic",
+            "snippet": "2.23 Complaints of the students must be presented through the proper channel. Students and staff can make use of the grievance redress mechanism available in the college. 2.24 The college authorities reserve the right to amend, alter or modify the Rules and Regulations from time to time on the basis of the changing requirements. 2.25 It is the responsibility of the students and staff to follow the notices/ announcements concerning the rules and programmes of the college from time to time. Ignorance of these rules cannot be considered as an excuse for lapses. 2.26 The Principal is the ultimate authority in the interpretation and implementation of the rules and regulations in the best interests of the institution. 3. Attendance & Leave of Absence 3.1 The college works from 9.30 a.m",
+            "score": 0.35,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 92.88,
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "content": "What is the permissible thesis plagiarism similarity index?",
+        "time": "09:56 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      },
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What is the permissible thesis plagiarism similarity index**:\n\n### \ud83d\udcd8 Research Ethics, Plagiarism & IP Policy (Page 1)\n\n- ACADEMIC INTEGRITY AND PLAGIARISM BYLAWS SECTION 1: SIMILARITY THRESHOLDS & THESIS VERIFICATION 1.1 Permissible Similarity Index: All undergraduate capstone theses, master's dissertations, and doctoral research must be screened through the university Turnitin/Urkund portal. `[Research Ethics, Plagiarism & IP Policy | Page 1]`\n- - Overall Similarity Index must not exceed 10% (excluding bibliography and generic quotes). `[Research Ethics, Plagiarism & IP Policy | Page 1]`\n- - Individual source similarity must be less than 2%. `[Research Ethics, Plagiarism & IP Policy | Page 1]`\n\n### \ud83d\udcd8 Research Conduct & Academic Integrity 2026 (Page 1)\n\n- Section 1: Plagiarism detection is mandatory for all undergraduate capstone theses. `[Research Conduct & Academic Integrity 2026 | Page 1]`\n- Section 2: Similarity index must not exceed 10 percent. `[Research Conduct & Academic Integrity 2026 | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:56 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Research Ethics, Plagiarism & IP Policy",
+            "page": 1,
+            "file": "research_ethics.txt",
+            "category": "Academic",
+            "snippet": "ACADEMIC INTEGRITY AND PLAGIARISM BYLAWS SECTION 1: SIMILARITY THRESHOLDS & THESIS VERIFICATION 1.1 Permissible Similarity Index: All undergraduate capstone theses, master's dissertations, and doctoral research must be screened through the university Turnitin/Urkund portal. - Overall Similarity Index must not exceed 10% (excluding bibliography and generic quotes). - Individual source similarity must be less than 2%. 1.2 Penalties for Plagiarism: - Level 1 (Similarity 10% - 40%): Student must revise and resubmit the thesis within 6 months. - Level 2 (Similarity 40% - 60%): Resubmission debarred for 1 full academic year. - Level 3 (Similarity > 60%): Permanent cancellation of research registration and degree denial.",
+            "score": 0.8306,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "Research Conduct & Academic Integrity 2026",
+            "page": 1,
+            "file": "research_conduct_2026.pdf",
+            "category": "Academic",
+            "snippet": "University Code of Academic Integrity and Research Conduct 2026. Section 1: Plagiarism detection is mandatory for all undergraduate capstone theses. Section 2: Similarity index must not exceed 10 percent.",
+            "score": 0.6614,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 112.66,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_293746dc45": {
+    "id": "sess_293746dc45",
+    "title": "What is the minimum attendance required ...",
+    "created_at": "2026-09-18 21:42:46",
+    "updated_at": "2026-09-18 21:42:46",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the minimum attendance required for examinations and medical condonation limit?",
+        "time": "09:42 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_62b4460a45": {
+    "id": "sess_62b4460a45",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 21:42:46",
+    "updated_at": "2026-09-18 21:42:46",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What is the minimum attendance required for examinations and medical condonation limit**:\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 1, Page 2)\n\n- SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). `[Student Attendance Policy & Leave Rules | Page 2]`\n- No condonation is permitted for students with attendance below 65% under any circumstances. `[Student Attendance Policy & Leave Rules | Page 2]`\n- 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade `[Student Attendance Policy & Leave Rules | Page 2]`\n- OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. `[Student Attendance Policy & Leave Rules | Page 1]`\n- Attendance is calculated from the official semester start date until the last instructional working day. `[Student Attendance Policy & Leave Rules | Page 1]`\n- 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. `[Student Attendance Policy & Leave Rules | Page 1]`\n\n### \ud83d\udcd8 college-rules (Page 5)\n\n- Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. `[college-rules | Page 5]`\n- For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. `[college-rules | Page 5]`\n- Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. `[college-rules | Page 5]`\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1)\n\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:42 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). - University representation in National / Inter-University sports, cultural, or NCC/NSS events. No condonation is permitted for students with attendance below 65% under any circumstances. 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade",
+            "score": 0.7131,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "college-rules",
+            "page": 5,
+            "file": "college-rules.pdf",
+            "category": "Academic",
+            "snippet": "3. Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. to 4.30 p.m. For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. Latecomers will not be given attendance. 3.2 Semester certificate of attendance and progress required for admission to university examination as well as progression shall not be given unless the applicant has attended at least 75% of the working days of the semester and the Principal is satisfied with the student's progress and conduct. 3.3 Leave for a short duration may be obtained from the HOD/Mentor",
+            "score": 0.4122,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 1,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. Attendance is calculated from the official semester start date until the last instructional working day. 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. Missed lab experiments must be completed during designated make-up sessions prior to practical exams.",
+            "score": 0.657,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.4711,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 90.78,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_5b7868a60f": {
+    "id": "sess_5b7868a60f",
+    "title": "How do I make chocolate croissants with ...",
+    "created_at": "2026-09-18 21:42:46",
+    "updated_at": "2026-09-18 21:42:46",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I make chocolate croissants with almond paste and pastry dough?",
+        "time": "09:42 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_a8647cc581": {
+    "id": "sess_a8647cc581",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 21:42:46",
+    "updated_at": "2026-09-18 21:42:46",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "### \u2139\ufe0f Information Not Found\n\nThe requested topic was not found in the indexed university regulations and policies. Please verify your question or ensure the relevant university handbook or policy document has been uploaded.",
+        "time": "09:42 PM",
+        "citations": [],
+        "confidence": "Not Found",
+        "llm_used": "System Fallback",
+        "processing_time_ms": 38.27,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_51a60363ab": {
+    "id": "sess_51a60363ab",
+    "title": "What are the fees for examination re-eva...",
+    "created_at": "2026-09-18 21:42:46",
+    "updated_at": "2026-09-18 21:42:46",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the fees for examination re-evaluation?",
+        "time": "09:42 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      },
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What are the fees for examination re-evaluation**:\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1, Page 2)\n\n- SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. `[Examination Regulations & Assessment Rules | Page 2]`\n- The fee for re-evaluation is $25 (Rs. `[Examination Regulations & Assessment Rules | Page 2]`\n- If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. `[Examination Regulations & Assessment Rules | Page 2]`\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 2)\n\n- Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year. `[Student Attendance Policy & Leave Rules | Page 2]`\n\n### \ud83d\udcd8 Tuition Fee Structure, Payment & Refund Rules (Page 1)\n\n- OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n- - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:42 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 2,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. The fee for re-evaluation is $25 (Rs. 500) per course. If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. 2.2 Supplementary / Backlog Exams: Supplementary examinations for odd and even semester backlogs are conducted twice annually (July and January). A student can register for a maximum of 4 backlog courses in a supplementary examination cycle.",
+            "score": 0.8417,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.5337,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year.",
+            "score": 0.4235,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Tuition Fee Structure, Payment & Refund Rules",
+            "page": 1,
+            "file": "fee_regulations.txt",
+            "category": "Scholarship",
+            "snippet": "OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. A grace period of 10 calendar days is allowed. - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. 200) per day. - Non-payment after Day 30: Temporary suspension of LMS portal access and course registration.",
+            "score": 0.3877,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 34.61,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_9bef71c5da": {
+    "id": "sess_9bef71c5da",
+    "title": "What is the minimum attendance required ...",
+    "created_at": "2026-09-18 21:51:30",
+    "updated_at": "2026-09-18 21:51:30",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the minimum attendance required for examinations and medical condonation limit?",
+        "time": "09:51 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_a3d71c08db": {
+    "id": "sess_a3d71c08db",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 21:51:30",
+    "updated_at": "2026-09-18 21:51:30",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What is the minimum attendance required for examinations and medical condonation limit**:\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 1, Page 2)\n\n- SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). `[Student Attendance Policy & Leave Rules | Page 2]`\n- No condonation is permitted for students with attendance below 65% under any circumstances. `[Student Attendance Policy & Leave Rules | Page 2]`\n- 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade `[Student Attendance Policy & Leave Rules | Page 2]`\n- OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. `[Student Attendance Policy & Leave Rules | Page 1]`\n- Attendance is calculated from the official semester start date until the last instructional working day. `[Student Attendance Policy & Leave Rules | Page 1]`\n- 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. `[Student Attendance Policy & Leave Rules | Page 1]`\n\n### \ud83d\udcd8 college-rules (Page 5)\n\n- Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. `[college-rules | Page 5]`\n- For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. `[college-rules | Page 5]`\n- Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. `[college-rules | Page 5]`\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1)\n\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:51 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). - University representation in National / Inter-University sports, cultural, or NCC/NSS events. No condonation is permitted for students with attendance below 65% under any circumstances. 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade",
+            "score": 0.7131,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "college-rules",
+            "page": 5,
+            "file": "college-rules.pdf",
+            "category": "Academic",
+            "snippet": "3. Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. to 4.30 p.m. For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. Latecomers will not be given attendance. 3.2 Semester certificate of attendance and progress required for admission to university examination as well as progression shall not be given unless the applicant has attended at least 75% of the working days of the semester and the Principal is satisfied with the student's progress and conduct. 3.3 Leave for a short duration may be obtained from the HOD/Mentor",
+            "score": 0.4122,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 1,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. Attendance is calculated from the official semester start date until the last instructional working day. 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. Missed lab experiments must be completed during designated make-up sessions prior to practical exams.",
+            "score": 0.657,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.4711,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 69.8,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_746b49fce4": {
+    "id": "sess_746b49fce4",
+    "title": "How do I make chocolate croissants with ...",
+    "created_at": "2026-09-18 21:51:31",
+    "updated_at": "2026-09-18 21:51:31",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I make chocolate croissants with almond paste and pastry dough?",
+        "time": "09:51 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_8ef9a938b2": {
+    "id": "sess_8ef9a938b2",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 21:51:31",
+    "updated_at": "2026-09-18 21:51:31",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "### \u2139\ufe0f Information Not Found\n\nThe requested topic was not found in the indexed university regulations and policies. Please verify your question or ensure the relevant university handbook or policy document has been uploaded.",
+        "time": "09:51 PM",
+        "citations": [],
+        "confidence": "Not Found",
+        "llm_used": "System Fallback",
+        "processing_time_ms": 125.05,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_75a56bb350": {
+    "id": "sess_75a56bb350",
+    "title": "What are the fees for examination re-eva...",
+    "created_at": "2026-09-18 21:51:31",
+    "updated_at": "2026-09-18 21:51:31",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the fees for examination re-evaluation?",
+        "time": "09:51 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      },
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What are the fees for examination re-evaluation**:\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1, Page 2)\n\n- SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. `[Examination Regulations & Assessment Rules | Page 2]`\n- The fee for re-evaluation is $25 (Rs. `[Examination Regulations & Assessment Rules | Page 2]`\n- If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. `[Examination Regulations & Assessment Rules | Page 2]`\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 2)\n\n- Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year. `[Student Attendance Policy & Leave Rules | Page 2]`\n\n### \ud83d\udcd8 Tuition Fee Structure, Payment & Refund Rules (Page 1)\n\n- OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n- - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:51 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 2,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. The fee for re-evaluation is $25 (Rs. 500) per course. If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. 2.2 Supplementary / Backlog Exams: Supplementary examinations for odd and even semester backlogs are conducted twice annually (July and January). A student can register for a maximum of 4 backlog courses in a supplementary examination cycle.",
+            "score": 0.8417,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.5337,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year.",
+            "score": 0.4235,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Tuition Fee Structure, Payment & Refund Rules",
+            "page": 1,
+            "file": "fee_regulations.txt",
+            "category": "Scholarship",
+            "snippet": "OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. A grace period of 10 calendar days is allowed. - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. 200) per day. - Non-payment after Day 30: Temporary suspension of LMS portal access and course registration.",
+            "score": 0.3877,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 50.92,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_883c966a50": {
+    "id": "sess_883c966a50",
+    "title": "What is the minimum attendance required ...",
+    "created_at": "2026-09-18 21:56:22",
+    "updated_at": "2026-09-18 21:56:22",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the minimum attendance required for examinations and medical condonation limit?",
+        "time": "09:56 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_681a7eb46b": {
+    "id": "sess_681a7eb46b",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 21:56:22",
+    "updated_at": "2026-09-18 21:56:22",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What is the minimum attendance required for examinations and medical condonation limit**:\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 1, Page 2)\n\n- SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). `[Student Attendance Policy & Leave Rules | Page 2]`\n- No condonation is permitted for students with attendance below 65% under any circumstances. `[Student Attendance Policy & Leave Rules | Page 2]`\n- 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade `[Student Attendance Policy & Leave Rules | Page 2]`\n- OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. `[Student Attendance Policy & Leave Rules | Page 1]`\n- Attendance is calculated from the official semester start date until the last instructional working day. `[Student Attendance Policy & Leave Rules | Page 1]`\n- 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. `[Student Attendance Policy & Leave Rules | Page 1]`\n\n### \ud83d\udcd8 college-rules (Page 5)\n\n- Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. `[college-rules | Page 5]`\n- For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. `[college-rules | Page 5]`\n- Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. `[college-rules | Page 5]`\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1)\n\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:56 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). - University representation in National / Inter-University sports, cultural, or NCC/NSS events. No condonation is permitted for students with attendance below 65% under any circumstances. 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade",
+            "score": 0.7131,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "college-rules",
+            "page": 5,
+            "file": "college-rules.pdf",
+            "category": "Academic",
+            "snippet": "3. Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. to 4.30 p.m. For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. Latecomers will not be given attendance. 3.2 Semester certificate of attendance and progress required for admission to university examination as well as progression shall not be given unless the applicant has attended at least 75% of the working days of the semester and the Principal is satisfied with the student's progress and conduct. 3.3 Leave for a short duration may be obtained from the HOD/Mentor",
+            "score": 0.4122,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 1,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. Attendance is calculated from the official semester start date until the last instructional working day. 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. Missed lab experiments must be completed during designated make-up sessions prior to practical exams.",
+            "score": 0.657,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.4711,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 37.52,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_77a6264fdd": {
+    "id": "sess_77a6264fdd",
+    "title": "How do I make chocolate croissants with ...",
+    "created_at": "2026-09-18 21:56:22",
+    "updated_at": "2026-09-18 21:56:22",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I make chocolate croissants with almond paste and pastry dough?",
+        "time": "09:56 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_f80bea17f9": {
+    "id": "sess_f80bea17f9",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 21:56:22",
+    "updated_at": "2026-09-18 21:56:22",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "### \u2139\ufe0f Information Not Found\n\nThe requested topic was not found in the indexed university regulations and policies. Please verify your question or ensure the relevant university handbook or policy document has been uploaded.",
+        "time": "09:56 PM",
+        "citations": [],
+        "confidence": "Not Found",
+        "llm_used": "System Fallback",
+        "processing_time_ms": 17.15,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_9d38d10df1": {
+    "id": "sess_9d38d10df1",
+    "title": "What are the fees for examination re-eva...",
+    "created_at": "2026-09-18 21:56:22",
+    "updated_at": "2026-09-18 21:56:22",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the fees for examination re-evaluation?",
+        "time": "09:56 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      },
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What are the fees for examination re-evaluation**:\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1, Page 2)\n\n- SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. `[Examination Regulations & Assessment Rules | Page 2]`\n- The fee for re-evaluation is $25 (Rs. `[Examination Regulations & Assessment Rules | Page 2]`\n- If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. `[Examination Regulations & Assessment Rules | Page 2]`\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 2)\n\n- Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year. `[Student Attendance Policy & Leave Rules | Page 2]`\n\n### \ud83d\udcd8 Tuition Fee Structure, Payment & Refund Rules (Page 1)\n\n- OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n- - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:56 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 2,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. The fee for re-evaluation is $25 (Rs. 500) per course. If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. 2.2 Supplementary / Backlog Exams: Supplementary examinations for odd and even semester backlogs are conducted twice annually (July and January). A student can register for a maximum of 4 backlog courses in a supplementary examination cycle.",
+            "score": 0.8417,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.5337,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year.",
+            "score": 0.4235,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Tuition Fee Structure, Payment & Refund Rules",
+            "page": 1,
+            "file": "fee_regulations.txt",
+            "category": "Scholarship",
+            "snippet": "OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. A grace period of 10 calendar days is allowed. - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. 200) per day. - Non-payment after Day 30: Temporary suspension of LMS portal access and course registration.",
+            "score": 0.3877,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 11.19,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_19f42f48b5": {
+    "id": "sess_19f42f48b5",
+    "title": "What is the minimum attendance required ...",
+    "created_at": "2026-09-18 21:58:27",
+    "updated_at": "2026-09-18 21:58:27",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the minimum attendance required for examinations and medical condonation limit?",
+        "time": "09:58 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_428c20cd46": {
+    "id": "sess_428c20cd46",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 21:58:27",
+    "updated_at": "2026-09-18 21:58:27",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What is the minimum attendance required for examinations and medical condonation limit**:\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 1, Page 2)\n\n- SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). `[Student Attendance Policy & Leave Rules | Page 2]`\n- No condonation is permitted for students with attendance below 65% under any circumstances. `[Student Attendance Policy & Leave Rules | Page 2]`\n- 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade `[Student Attendance Policy & Leave Rules | Page 2]`\n- OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. `[Student Attendance Policy & Leave Rules | Page 1]`\n- Attendance is calculated from the official semester start date until the last instructional working day. `[Student Attendance Policy & Leave Rules | Page 1]`\n- 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. `[Student Attendance Policy & Leave Rules | Page 1]`\n\n### \ud83d\udcd8 college-rules (Page 5)\n\n- Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. `[college-rules | Page 5]`\n- For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. `[college-rules | Page 5]`\n- Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. `[college-rules | Page 5]`\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1)\n\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:58 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). - University representation in National / Inter-University sports, cultural, or NCC/NSS events. No condonation is permitted for students with attendance below 65% under any circumstances. 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade",
+            "score": 0.7131,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "college-rules",
+            "page": 5,
+            "file": "college-rules.pdf",
+            "category": "Academic",
+            "snippet": "3. Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. to 4.30 p.m. For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. Latecomers will not be given attendance. 3.2 Semester certificate of attendance and progress required for admission to university examination as well as progression shall not be given unless the applicant has attended at least 75% of the working days of the semester and the Principal is satisfied with the student's progress and conduct. 3.3 Leave for a short duration may be obtained from the HOD/Mentor",
+            "score": 0.4122,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 1,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. Attendance is calculated from the official semester start date until the last instructional working day. 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. Missed lab experiments must be completed during designated make-up sessions prior to practical exams.",
+            "score": 0.657,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.4711,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 166.83,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_e1dc6ecf4e": {
+    "id": "sess_e1dc6ecf4e",
+    "title": "How do I make chocolate croissants with ...",
+    "created_at": "2026-09-18 21:58:27",
+    "updated_at": "2026-09-18 21:58:27",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I make chocolate croissants with almond paste and pastry dough?",
+        "time": "09:58 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_35197db256": {
+    "id": "sess_35197db256",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 21:58:27",
+    "updated_at": "2026-09-18 21:58:27",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "### \u2139\ufe0f Information Not Found\n\nThe requested topic was not found in the indexed university regulations and policies. Please verify your question or ensure the relevant university handbook or policy document has been uploaded.",
+        "time": "09:58 PM",
+        "citations": [],
+        "confidence": "Not Found",
+        "llm_used": "System Fallback",
+        "processing_time_ms": 30.96,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_6d851b37ae": {
+    "id": "sess_6d851b37ae",
+    "title": "What are the fees for examination re-eva...",
+    "created_at": "2026-09-18 21:58:27",
+    "updated_at": "2026-09-18 21:58:27",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the fees for examination re-evaluation?",
+        "time": "09:58 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      },
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What are the fees for examination re-evaluation**:\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1, Page 2)\n\n- SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. `[Examination Regulations & Assessment Rules | Page 2]`\n- The fee for re-evaluation is $25 (Rs. `[Examination Regulations & Assessment Rules | Page 2]`\n- If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. `[Examination Regulations & Assessment Rules | Page 2]`\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 2)\n\n- Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year. `[Student Attendance Policy & Leave Rules | Page 2]`\n\n### \ud83d\udcd8 Tuition Fee Structure, Payment & Refund Rules (Page 1)\n\n- OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n- - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "09:58 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 2,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. The fee for re-evaluation is $25 (Rs. 500) per course. If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. 2.2 Supplementary / Backlog Exams: Supplementary examinations for odd and even semester backlogs are conducted twice annually (July and January). A student can register for a maximum of 4 backlog courses in a supplementary examination cycle.",
+            "score": 0.8417,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.5337,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year.",
+            "score": 0.4235,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Tuition Fee Structure, Payment & Refund Rules",
+            "page": 1,
+            "file": "fee_regulations.txt",
+            "category": "Scholarship",
+            "snippet": "OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. A grace period of 10 calendar days is allowed. - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. 200) per day. - Non-payment after Day 30: Temporary suspension of LMS portal access and course registration.",
+            "score": 0.3877,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 26.0,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_6912d41a1b": {
+    "id": "sess_6912d41a1b",
+    "title": "What is the minimum attendance required ...",
+    "created_at": "2026-09-18 22:01:35",
+    "updated_at": "2026-09-18 22:01:35",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the minimum attendance required for examinations and medical condonation limit?",
+        "time": "10:01 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_3e1541c8de": {
+    "id": "sess_3e1541c8de",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 22:01:35",
+    "updated_at": "2026-09-18 22:01:35",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What is the minimum attendance required for examinations and medical condonation limit**:\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 1, Page 2)\n\n- SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). `[Student Attendance Policy & Leave Rules | Page 2]`\n- No condonation is permitted for students with attendance below 65% under any circumstances. `[Student Attendance Policy & Leave Rules | Page 2]`\n- 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade `[Student Attendance Policy & Leave Rules | Page 2]`\n- OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. `[Student Attendance Policy & Leave Rules | Page 1]`\n- Attendance is calculated from the official semester start date until the last instructional working day. `[Student Attendance Policy & Leave Rules | Page 1]`\n- 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. `[Student Attendance Policy & Leave Rules | Page 1]`\n\n### \ud83d\udcd8 college-rules (Page 5)\n\n- Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. `[college-rules | Page 5]`\n- For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. `[college-rules | Page 5]`\n- Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. `[college-rules | Page 5]`\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1)\n\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "10:01 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "SECTION 2: CONDONATION AND SHORTAGE CONSEQUENCES 2.1 Condonation of Attendance Shortage (Medical & Sports): The Dean of Academic Affairs may condone attendance shortage up to 10% (i.e., between 65% and 74.9% attendance) strictly on grounds of: - Prolonged hospitalization or certified illness (Official medical certificate must be submitted within 3 working days of resuming classes). - University representation in National / Inter-University sports, cultural, or NCC/NSS events. No condonation is permitted for students with attendance below 65% under any circumstances. 2.2 Detention Due to Shortage (Grade SA): Students who fail to secure 75% attendance (or 65% with approved condonation) will be awarded the 'SA' (Shortage of Attendance) grade",
+            "score": 0.7131,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "college-rules",
+            "page": 5,
+            "file": "college-rules.pdf",
+            "category": "Academic",
+            "snippet": "3. Attendance & Leave of Absence 3.1 The college works from 9.30 a.m. to 4.30 p.m. For the purpose of attendance, all working days will be considered as full working days irrespective of the number of hours. Absence during one hour either in the forenoon or the afternoon session will be considered half a day of absence. Latecomers will not be given attendance. 3.2 Semester certificate of attendance and progress required for admission to university examination as well as progression shall not be given unless the applicant has attended at least 75% of the working days of the semester and the Principal is satisfied with the student's progress and conduct. 3.3 Leave for a short duration may be obtained from the HOD/Mentor",
+            "score": 0.4122,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 1,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "OFFICIAL UNIVERSITY ATTENDANCE POLICY SECTION 1: MANDATORY ATTENDANCE REQUIREMENTS 1.1 Aggregate Attendance Threshold: Every regular student is mandated to maintain a minimum of 75% attendance in aggregate across all registered courses (theory and practicals) in every academic semester. Attendance is calculated from the official semester start date until the last instructional working day. 1.2 Laboratory & Practical Attendance: Laboratory courses require a strict 80% physical attendance. Missed lab experiments must be completed during designated make-up sessions prior to practical exams.",
+            "score": 0.657,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.4711,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 162.13,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_d0ba5672be": {
+    "id": "sess_d0ba5672be",
+    "title": "How do I make chocolate croissants with ...",
+    "created_at": "2026-09-18 22:01:35",
+    "updated_at": "2026-09-18 22:01:35",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I make chocolate croissants with almond paste and pastry dough?",
+        "time": "10:01 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_6137bb5057": {
+    "id": "sess_6137bb5057",
+    "title": "New Conversation",
+    "created_at": "2026-09-18 22:01:35",
+    "updated_at": "2026-09-18 22:01:35",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "### \u2139\ufe0f Information Not Found\n\nThe requested topic was not found in the indexed university regulations and policies. Please verify your question or ensure the relevant university handbook or policy document has been uploaded.",
+        "time": "10:01 PM",
+        "citations": [],
+        "confidence": "Not Found",
+        "llm_used": "System Fallback",
+        "processing_time_ms": 70.69,
+        "feedback": null
+      }
+    ]
+  },
+  "sess_7be968bbc9": {
+    "id": "sess_7be968bbc9",
+    "title": "What are the fees for examination re-eva...",
+    "created_at": "2026-09-18 22:01:35",
+    "updated_at": "2026-09-18 22:01:36",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the fees for examination re-evaluation?",
+        "time": "10:01 PM",
+        "citations": [],
+        "confidence": null,
+        "llm_used": null,
+        "processing_time_ms": null,
+        "feedback": null
+      },
+      {
+        "role": "assistant",
+        "content": "Based on official university records, here is the relevant policy regarding **What are the fees for examination re-evaluation**:\n\n### \ud83d\udcd8 Examination Regulations & Assessment Rules (Page 1, Page 2)\n\n- SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. `[Examination Regulations & Assessment Rules | Page 2]`\n- The fee for re-evaluation is $25 (Rs. `[Examination Regulations & Assessment Rules | Page 2]`\n- If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. `[Examination Regulations & Assessment Rules | Page 2]`\n- OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). `[Examination Regulations & Assessment Rules | Page 1]`\n- - Semester End Examination (SEE): 60% weightage. `[Examination Regulations & Assessment Rules | Page 1]`\n- A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. `[Examination Regulations & Assessment Rules | Page 1]`\n\n### \ud83d\udcd8 Student Attendance Policy & Leave Rules (Page 2)\n\n- Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year. `[Student Attendance Policy & Leave Rules | Page 2]`\n\n### \ud83d\udcd8 Tuition Fee Structure, Payment & Refund Rules (Page 1)\n\n- OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n- - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. `[Tuition Fee Structure, Payment & Refund Rules | Page 1]`\n\n---\n\ud83d\udccc *All statements above are directly grounded in the official University Regulations and verified against the registered source pages.*",
+        "time": "10:01 PM",
+        "citations": [
+          {
+            "id": 1,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 2,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "SECTION 2: RE-EVALUATION AND SUPPLEMENTARY EXAMINATIONS 2.1 Re-evaluation and Answer Script Inspection: Students unsatisfied with their Semester End Examination marks may apply for Answer Script Photocopy and Re-evaluation within 15 calendar days from the date of result declaration. The fee for re-evaluation is $25 (Rs. 500) per course. If the re-evaluation yields a difference of +/- 10% or more from original marks, the revised score will be updated on the grade card. 2.2 Supplementary / Backlog Exams: Supplementary examinations for odd and even semester backlogs are conducted twice annually (July and January). A student can register for a maximum of 4 backlog courses in a supplementary examination cycle.",
+            "score": 0.8417,
+            "verified": true
+          },
+          {
+            "id": 2,
+            "source": "Examination Regulations & Assessment Rules",
+            "page": 1,
+            "file": "examination_rules.txt",
+            "category": "Examination",
+            "snippet": "OFFICIAL UNIVERSITY EXAMINATION MANUAL SECTION 1: ASSESSMENT WEIGHTAGE AND ELIGIBILITY 1.1 Evaluation Structure: The assessment in each theory course comprises: - Continuous Internal Evaluation (CIE): 40% weightage (Mid-term tests: 25%, Quizzes/Assignments: 10%, Class Participation: 5%). - Semester End Examination (SEE): 60% weightage. A candidate must secure at least 40% in SEE and 40% in overall aggregate (CIE + SEE) to pass the course. 1.2 Hall Ticket Eligibility: Hall tickets for the Semester End Examination are issued only to registered students with: 1. Minimum 75% attendance in the course. 2. Complete clearance of all semester university tuition and laboratory dues. 3. No pending disciplinary suspensions.",
+            "score": 0.5337,
+            "verified": true
+          },
+          {
+            "id": 3,
+            "source": "Student Attendance Policy & Leave Rules",
+            "page": 2,
+            "file": "attendance_policy.txt",
+            "category": "Attendance",
+            "snippet": "Students with Grade SA are detained from taking the Semester End Examination in that course and must re-register for the course during the subsequent academic year.",
+            "score": 0.4235,
+            "verified": true
+          },
+          {
+            "id": 4,
+            "source": "Tuition Fee Structure, Payment & Refund Rules",
+            "page": 1,
+            "file": "fee_regulations.txt",
+            "category": "Scholarship",
+            "snippet": "OFFICIAL TUITION FEE AND PAYMENT REGULATIONS SECTION 1: PAYMENT SCHEDULE & PENALTIES 1.1 Semester Fee Schedule: Tuition, lab, and development fees must be deposited before the commencement date of each semester. A grace period of 10 calendar days is allowed. - Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. 200) per day. - Non-payment after Day 30: Temporary suspension of LMS portal access and course registration.",
+            "score": 0.3877,
+            "verified": true
+          }
+        ],
+        "confidence": "High",
+        "llm_used": "Local Extractive Synthesizer",
+        "processing_time_ms": 187.17,
+        "feedback": null
+      }
+    ]
+  }
+}

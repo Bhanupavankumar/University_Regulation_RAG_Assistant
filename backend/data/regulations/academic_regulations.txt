@@ -1,0 +1,41 @@
+=== PAGE 1 ===
+OFFICIAL UNIVERSITY ACADEMIC REGULATIONS (R-2025)
+SECTION 1: GRADING SYSTEM AND CGPA CALCULATION
+1.1 Letter Grades and Grade Points:
+- O (Outstanding): Grade Points = 10 (Marks Range: 90 - 100%)
+- A+ (Excellent): Grade Points = 9 (Marks Range: 80 - 89%)
+- A (Very Good): Grade Points = 8 (Marks Range: 70 - 79%)
+- B+ (Good): Grade Points = 7 (Marks Range: 60 - 69%)
+- B (Above Average): Grade Points = 6 (Marks Range: 50 - 59%)
+- C (Pass): Grade Points = 5 (Marks Range: 40 - 49%)
+- F (Fail / Backlog): Grade Points = 0 (Marks Range: Below 40%)
+- Ab (Absent): Grade Points = 0
+
+1.2 CGPA and SGPA Formulas:
+The Semester Grade Point Average (SGPA) is calculated as SGPA = Sum(Credit_i * GradePoint_i) / Sum(Credit_i).
+The Cumulative Grade Point Average (CGPA) is computed as CGPA = Sum(All_Credits_Earned * GradePoints) / Total_Credits_Attempted.
+A minimum CGPA of 5.0 is strictly required for the award of an Undergraduate Degree.
+Total credits required for a 4-year B.Tech degree: 160 credits.
+
+=== PAGE 2 ===
+SECTION 2: COURSE REGISTRATION, PROBATION, AND DURATION
+2.1 Add/Drop Policy:
+Students may add or drop elective courses within the first 14 calendar days (2 weeks) of the semester commencement with advisor approval.
+Audit courses carry zero credits and do not affect the CGPA calculation.
+
+2.2 Academic Probation:
+Any student whose CGPA falls below 5.0 at the end of an academic year will be placed on Academic Probation for the subsequent semester.
+Students on probation may not register for more than 18 credits in that semester and must attend weekly mandatory mentoring sessions.
+
+2.3 Maximum Duration for Degree Completion:
+The maximum duration permitted for completing a 4-year undergraduate degree is N + 2 years (i.e., 6 consecutive academic years).
+Failure to complete degree requirements within 6 years will result in termination of student enrollment.
+
+=== PAGE 3 ===
+SECTION 3: HONORS AND MINOR DEGREE PROGRAMS
+3.1 Eligibility for Honors Degree:
+Students with a CGPA of 7.50 or higher at the end of the 4th semester with no standing backlogs are eligible to register for an Honors Degree in their parent discipline.
+Students must earn an additional 18 to 20 specialized credits over and above the standard 160 degree credits.
+
+3.2 Minor Degree in Interdisciplinary Fields:
+Students can earn a Minor Degree (e.g., AI & Machine Learning, Data Science, Fintech) by completing 18 designated credits from another department without exceeding a maximum term load of 26 credits per semester.

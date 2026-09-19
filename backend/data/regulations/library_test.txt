@@ -1,0 +1,5 @@
+Sample University Policy on Library Services.
+=== PAGE 1 ===
+Students can borrow 4 books for 14 days.
+=== PAGE 2 ===
+Late fine is .50 per day per book.

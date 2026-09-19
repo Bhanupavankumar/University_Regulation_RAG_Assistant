@@ -1,0 +1,190 @@
+[
+  {
+    "id": "DOC001",
+    "title": "Academic Regulations & Curriculum Guidelines",
+    "filename": "academic_regulations.txt",
+    "category": "Academic",
+    "source_url": "https://university.edu/regulations/academic_2025.pdf",
+    "total_pages": 3,
+    "total_chunks": 5,
+    "file_size_kb": 2.5
+  },
+  {
+    "id": "DOC002",
+    "title": "Examination Regulations & Assessment Rules",
+    "filename": "examination_rules.txt",
+    "category": "Examination",
+    "source_url": "https://university.edu/exams/examination_manual.pdf",
+    "total_pages": 3,
+    "total_chunks": 3,
+    "file_size_kb": 2.0
+  },
+  {
+    "id": "DOC003",
+    "title": "Student Attendance Policy & Leave Rules",
+    "filename": "attendance_policy.txt",
+    "category": "Attendance",
+    "source_url": "https://university.edu/policies/attendance_policy.pdf",
+    "total_pages": 2,
+    "total_chunks": 3,
+    "file_size_kb": 1.53
+  },
+  {
+    "id": "DOC004",
+    "title": "Student Handbook & Campus Code of Conduct",
+    "filename": "student_handbook.txt",
+    "category": "Handbook",
+    "source_url": "https://university.edu/student-life/handbook.pdf",
+    "total_pages": 2,
+    "total_chunks": 2,
+    "file_size_kb": 1.42
+  },
+  {
+    "id": "DOC005",
+    "title": "Scholarship Guidelines & Merit Waivers",
+    "filename": "scholarship_guidelines.txt",
+    "category": "Scholarship",
+    "source_url": "https://university.edu/admissions/scholarships_fees.pdf",
+    "total_pages": 2,
+    "total_chunks": 2,
+    "file_size_kb": 0.96
+  },
+  {
+    "id": "DOC006",
+    "title": "Internship, Placement & Industrial Training Policy",
+    "filename": "internship_policy.txt",
+    "category": "Academic",
+    "source_url": "https://university.edu/career/internship_policy.pdf",
+    "total_pages": 2,
+    "total_chunks": 2,
+    "file_size_kb": 1.09
+  },
+  {
+    "id": "DOC007",
+    "title": "Hostel Residence, Dining & Security Bylaws",
+    "filename": "hostel_bylaws.txt",
+    "category": "Handbook",
+    "source_url": "https://university.edu/campus-life/hostel_bylaws.pdf",
+    "total_pages": 2,
+    "total_chunks": 2,
+    "file_size_kb": 1.08
+  },
+  {
+    "id": "DOC008",
+    "title": "Research Ethics, Plagiarism & IP Policy",
+    "filename": "research_ethics.txt",
+    "category": "Academic",
+    "source_url": "https://university.edu/research/ethics_policy.pdf",
+    "total_pages": 2,
+    "total_chunks": 2,
+    "file_size_kb": 1.09
+  },
+  {
+    "id": "DOC009",
+    "title": "Sports, Cultural Quota & Extra-Curricular Regulations",
+    "filename": "sports_regulations.txt",
+    "category": "Handbook",
+    "source_url": "https://university.edu/sports/regulations.pdf",
+    "total_pages": 2,
+    "total_chunks": 2,
+    "file_size_kb": 0.91
+  },
+  {
+    "id": "DOC010",
+    "title": "Tuition Fee Structure, Payment & Refund Rules",
+    "filename": "fee_regulations.txt",
+    "category": "Scholarship",
+    "source_url": "https://university.edu/finance/tuition_fees.pdf",
+    "total_pages": 2,
+    "total_chunks": 2,
+    "file_size_kb": 0.98
+  },
+  {
+    "id": "DOC011",
+    "title": "Procedures and Policy for Maintenance",
+    "filename": "Procedures and Policy for Maintenance.pdf",
+    "category": "Academic",
+    "source_url": "",
+    "total_pages": 11,
+    "total_chunks": 27,
+    "file_size_kb": 125.72,
+    "uploaded_at": "2026-09-18 21:22:42"
+  },
+  {
+    "id": "DOC012",
+    "title": "college-rules",
+    "filename": "college-rules.pdf",
+    "category": "Academic",
+    "source_url": "",
+    "total_pages": 6,
+    "total_chunks": 24,
+    "file_size_kb": 26.31,
+    "uploaded_at": "2026-09-18 21:38:10"
+  },
+  {
+    "id": "DOC013",
+    "title": "Library Test Policy",
+    "filename": "library_test.txt",
+    "category": "Handbook",
+    "source_url": "",
+    "total_pages": 3,
+    "total_chunks": 3,
+    "file_size_kb": 0.15,
+    "uploaded_at": "2026-09-18 21:26:03"
+  },
+  {
+    "id": "DOC014",
+    "title": "Research Conduct & Academic Integrity 2026",
+    "filename": "research_conduct_2026.pdf",
+    "category": "Academic",
+    "source_url": "https://univ.edu/research-policy",
+    "total_pages": 2,
+    "total_chunks": 2,
+    "file_size_kb": 1.42,
+    "uploaded_at": "2026-09-18 21:28:41"
+  },
+  {
+    "id": "DOC015",
+    "title": "Sports Quota 2026",
+    "filename": "sports_quota_2026.pdf",
+    "category": "Handbook",
+    "source_url": "https://univ.edu/handbook",
+    "total_pages": 1,
+    "total_chunks": 1,
+    "file_size_kb": 0.91,
+    "uploaded_at": "2026-09-18 21:30:16"
+  },
+  {
+    "id": "DOC016",
+    "title": "Housing Rules 2026",
+    "filename": "housing_rules_2026.pdf",
+    "category": "Handbook",
+    "source_url": "https://univ.edu/handbook",
+    "total_pages": 1,
+    "total_chunks": 1,
+    "file_size_kb": 0.9,
+    "uploaded_at": "2026-09-18 21:30:16"
+  },
+  {
+    "id": "DOC017",
+    "title": "Emergency Leave 2026",
+    "filename": "emergency_leave_2026.txt",
+    "category": "Handbook",
+    "source_url": "https://univ.edu/handbook",
+    "total_pages": 1,
+    "total_chunks": 1,
+    "file_size_kb": 0.07,
+    "uploaded_at": "2026-09-18 21:30:16"
+  },
+  {
+    "id": "DOC018",
+    "title": "academic regulations (1)",
+    "filename": "academic_regulations (1).txt",
+    "category": "Academic",
+    "source_url": "",
+    "total_pages": 3,
+    "total_chunks": 5,
+    "file_size_kb": 2.5,
+    "uploaded_at": "2026-09-18 22:01:43"
+  }
+]

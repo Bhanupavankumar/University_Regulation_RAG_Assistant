@@ -1,0 +1,17 @@
+=== PAGE 1 ===
+OFFICIAL TUITION FEE AND PAYMENT REGULATIONS
+SECTION 1: PAYMENT SCHEDULE & PENALTIES
+1.1 Semester Fee Schedule:
+Tuition, lab, and development fees must be deposited before the commencement date of each semester.
+A grace period of 10 calendar days is allowed.
+- Payments made between Day 11 and Day 25: Late fee fine of $10 (Rs. 200) per day.
+- Non-payment after Day 30: Temporary suspension of LMS portal access and course registration.
+
+=== PAGE 2 ===
+SECTION 2: STATUTORY FEE REFUND SCHEDULE (UGC MANDATE)
+2.1 Refund on Admission Cancellation:
+- 100% refund (less $15 processing charge): If formal notice of withdrawal is submitted 15 days or more before class commencement.
+- 90% refund: If withdrawal is requested less than 15 days before class commencement.
+- 80% refund: Within 15 calendar days after class commencement.
+- 50% refund: Between 16 and 30 calendar days after class commencement.
+- 0% (No refund): More than 30 calendar days after class commencement.

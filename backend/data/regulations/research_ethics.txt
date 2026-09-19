@@ -1,0 +1,18 @@
+=== PAGE 1 ===
+ACADEMIC INTEGRITY AND PLAGIARISM BYLAWS
+SECTION 1: SIMILARITY THRESHOLDS & THESIS VERIFICATION
+1.1 Permissible Similarity Index:
+All undergraduate capstone theses, master's dissertations, and doctoral research must be screened through the university Turnitin/Urkund portal.
+- Overall Similarity Index must not exceed 10% (excluding bibliography and generic quotes).
+- Individual source similarity must be less than 2%.
+
+1.2 Penalties for Plagiarism:
+- Level 1 (Similarity 10% - 40%): Student must revise and resubmit the thesis within 6 months.
+- Level 2 (Similarity 40% - 60%): Resubmission debarred for 1 full academic year.
+- Level 3 (Similarity > 60%): Permanent cancellation of research registration and degree denial.
+
+=== PAGE 2 ===
+SECTION 2: INTELLECTUAL PROPERTY & PATENTS
+2.1 Student Inventions & Patents:
+Inventions developed using substantial university lab infrastructure are jointly owned by the university and student inventors (60:40 revenue sharing model).
+The university Technology Transfer Office covers 100% of the patent filing fees for approved innovations.
